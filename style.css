@@ -1,0 +1,51 @@
+/* .container{
+    display: flex;
+    justify-content: center;
+} */
+
+.tag-container{
+    min-width: 500px;
+    display: flex;
+}
+
+.tag-container, .tag {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.tags {
+    display: flex;
+}
+
+.tag {
+    margin: 4px;
+    border-radius: 4px;
+    background-color: aliceblue;
+}
+
+.close-btn{
+    border: none;
+    background-color: aliceblue;
+    padding: 0;
+    font-size: 12px;
+    color: gray;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.creat-tag-input {
+    border: none;
+    height: 31px;
+    min-width: 120px;
+    margin: 4px 0 0 4px;
+}
+
+.show-all-tags {
+    min-height: 45px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    border-top: none;
+    display: flex;
+    min-width: 50px;
+}
